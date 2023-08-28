@@ -1,0 +1,79 @@
+html, body {
+    margin: 0;
+}
+img{
+    height:400px
+
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+.wrapper {
+    padding-bottom: 5px;
+    width: 5000px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+    
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.header {
+    text-align: center;
+    background-color: #f1f1f1
+    min-height 500px ;
+}
+.content {
+    text-align: center;
+    color: #f1f1f1;
+    margin: 100px;
+    box-shadow: 0 4px 8px #f1f1f1;
+    box-sizing: border-box;
+    background-color: rgb(52,52,54);
+    min-height: 50vh;
+    padding: 30 0 10 50;
+    
+}
+.footer {
+    text-align: center;
+    background-color: rgb(52, 52, 54);
+
+    color: #f1f1f1   
+}
+table,th,td,tr{
+
+    text-align: center;
+    padding: auto;
+    margin: auto;    
+    border: 1px solid white;
+    color: #f1f1f1;
+    min-height: 50vh;
+    }
+.mapa iframe{
+   height: 600px;
+    width: 500px;
+    box-shadow:  0 0 3px;
+}
+input{
+    width: 40%;
+    padding: 10px ;
+    margin-bottom: 1em ;
+    font: 1em sans-serif;
+    border: 1px solid;
+}
+label{
+    font-weight: bold;
+    padding-bottom: 5px;
+    display: block;
+}
+
+
+
+
+
+
